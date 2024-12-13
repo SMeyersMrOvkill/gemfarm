@@ -1,5 +1,6 @@
 import os
-from src import create_app, socketio
+from gemfarm import create_app
+from flask import socketio
 
 # Get environment setting from ENV var, default to development
 env = os.environ.get('FLASK_ENV', 'development')

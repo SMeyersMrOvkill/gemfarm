@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "python3.10 -c \"import gemfarm\""
+    "dev": "python3 -c \"import gemfarm\napp = gemfarm.create_app()\napp.run()\""
   },
   "keywords": [],
   "author": "",

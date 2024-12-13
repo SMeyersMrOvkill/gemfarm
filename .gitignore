@@ -129,4 +129,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-__pycache__*
+__pycache__/
+package-lock.json
+.replit
+uv.lock
